@@ -76,6 +76,15 @@ public class MethodsOfString1 {
         s7 = s7.copyValueOf(arr,0,8);
         System.out.println(s7);
 
+
+//        trim()
+//        trim() method in Java returns a new string which is the copy of the original string
+//        with leading and trailing spaces removed from it.
+
+        String str = " This is an example    ";
+        String newStr = str.trim();
+        System.out.println(newStr);  //"This is an example"
+
     }
 
 }
