@@ -76,7 +76,7 @@ public class MethodsOfString {
         System.out.println("cuurent " +s91.compareToIgnoreCase(s9));
 
 //        contains()
-//        This method is used to check whetther a substring is a part of main string
+//        This method is used to check whether a substring is a part of main string
 //        Returntype is boolean
 
         String s11 = "Softwaretesting";
@@ -92,7 +92,7 @@ public class MethodsOfString {
 
 //        split()
 //        As the name suggests, a split() method is used to split or separate the given String into multiple substrings
-
+//        returntype of this method is array of string
 
 
         String s15 = "javaisaprogramminglanguage";

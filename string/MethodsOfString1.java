@@ -83,8 +83,28 @@ public class MethodsOfString1 {
 
         String str = " This is an example    ";
         String newStr = str.trim();
-        System.out.println(newStr);  //"This is an example"
+        System.out.println(newStr);  //"This is an example
 
+//        contentEquals()
+//        checks whether a string contains the exact same sequence of characters of the specified CharSequence or StringBuffer
+
+        String s = "abcd efgh ijkl";
+        String ss = "abcd efgh ijkl";
+        String sss = "abcd efgh ijklm";
+
+        System.out.println(s.contentEquals(ss));
+        System.out.println(s.contentEquals(sss));
+
+//        equals()
+//        Compares two strings. Returns true if the strings are equal, and false if not
+
+        System.out.println(s.equals(ss));
+
+//        equalsIgnoreCase()
+//        Compares two strings, ignoring case considerations
+
+        String ss1 = "ABcd Efgh ijKL";
+        System.out.println(s.equalsIgnoreCase(ss1));
     }
 
 }
